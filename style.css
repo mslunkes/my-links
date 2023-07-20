@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding: 0;
+}
 
 body {
     background-color: black;
@@ -5,9 +9,11 @@ body {
 }
 
 img {
-    border-radius: 20px;
-    width: 320px;
-    height: 320px;
+    border-radius: 75%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray
+
  }
 
  h1 {
@@ -17,30 +23,41 @@ img {
  }
 
  p {
-    color: white; 
+    color: crimson; 
  }
 
  ul {
     margin-top: 35px;
+    contain: center;
+    padding: 15px;
  }
  
  li{
     margin-bottom: 18px;
     list-style: none;
+    
  }
 
  a{ 
-    background-color: limegreen;
-    color: white;
+    background-color: lightskyblue;
+    color: blue;
     padding: 15px;
+    padding-left: 15px;
     text-decoration: none;
     display: block;
     border-radius: 5px;
+       
  }
 
+ a:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+    
+    
+ }
  footer{
     color: white;
-    
+    contain: center;
  }
 
  .container {
@@ -50,5 +67,5 @@ img {
     margin-top: 41px;
     margin-left: auto;
     margin-right: auto;
-
+    
  }
