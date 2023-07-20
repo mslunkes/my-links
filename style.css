@@ -10,42 +10,49 @@ body {
 
 img {
     border-radius: 75%;
-    width: 300px;
-    height: 300px;
-    border: 1px solid gray
+    width: 260px;
+    height: 260px;
+    border: 2px solid gray
+    
+    
 
  }
 
  h1 {
     color: white;
-    margin-top: 31px;
+    margin-top: 25px;
     margin-bottom: 8px;
+    
  }
 
  p {
     color: crimson; 
+    font-style: italic;
  }
 
  ul {
-    margin-top: 35px;
+    margin-top: 2px;
     contain: center;
-    padding: 15px;
+    padding: 5px;
  }
  
  li{
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     list-style: none;
     
  }
 
  a{ 
+    
     background-color: lightskyblue;
     color: blue;
     padding: 15px;
-    padding-left: 15px;
+    padding-left: 20x;
     text-decoration: none;
     display: block;
-    border-radius: 5px;
+    border-radius: 15px;
+    font-weight: bold
+    
        
  }
 
@@ -64,8 +71,8 @@ img {
     background-color: black;
     width: 320px;
     text-align: center;
-    margin-top: 41px;
+    margin-top: 7px;
     margin-left: auto;
     margin-right: auto;
-    
- }
+ }   
+   
