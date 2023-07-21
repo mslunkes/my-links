@@ -37,29 +37,31 @@ img {
  }
  
  li{
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     list-style: none;
     
  }
 
  a{ 
     
-    background-color: lightskyblue;
-    color: blue;
+    background-color: rgb(101, 191, 247);
+    color: rgb(16, 4, 107);
     padding: 15px;
     padding-left: 20x;
     text-decoration: none;
     display: block;
     border-radius: 15px;
-    font-weight: bold
-    
+    font-weight: bold;
+    box-shadow: 5px 5px #130177;
+    transition: all .3s ease-in-out;
        
  }
 
  a:hover{
     background-color: green;
     color: whitesmoke;
-    
+    box-shadow: 8px 8px #3e045b;
+    transition: all .6s ease-in-out;
     
  }
  footer{
