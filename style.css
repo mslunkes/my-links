@@ -4,11 +4,15 @@
 }
 
 body {
-    background-color: black;
+    
+    background-image: linear-gradient(to top, black 0%, #020b22 33%, #081129 67%, black 100%);
+    background-size: 300% 300%;
+    animation: animationgra 5s ease infinite;
     font-family: sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+   
   
 }
 
@@ -48,8 +52,8 @@ img {
 
  a{ 
     
-    background-color: rgb(101, 191, 247);
-    color: rgb(16, 4, 107);
+    background-color: rgb(28, 192, 237);
+    color: rgb(0, 0, 0);
     padding: 15px;
     padding-left: 20x;
     text-decoration: none;
@@ -57,15 +61,15 @@ img {
     border-radius: 15px;
     font-weight: bold;
     /*box-shadow: 5px 5px #130177;*/
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
        
  }
 
  a:hover{
-    background-color: green;
-    color: whitesmoke;
-    box-shadow: 8px 8px #3e045b;
-    transition: all .4s ease-in-out;
+    background-color: rgb(61, 218, 61);
+    color: rgb(24, 18, 198);
+    box-shadow: 8px 8px #0c0389;
+    transition: all .2s ease-in-out;
     
  }
  footer{
@@ -74,11 +78,11 @@ img {
  }
 
  .container {
-    background-color: black;
+    
     width: 320px;
     text-align: center;
     margin-top: 7px;
     margin-left: auto;
     margin-right: auto;
  }   
-   
+  
