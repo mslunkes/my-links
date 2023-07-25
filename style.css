@@ -3,26 +3,28 @@
     padding: 0;
 }
 
+@keyframes drowning {
+   from {background-position: 0 0;}
+   to {background-position: 100% 70%;}
+}
+@keyframes efeitinho {
+   from {color: #00050a;}
+   to {color:rgb(243, 247, 247)}
+}
+
 body {
-    
-    background-image: linear-gradient(to top, black 0%, #020b22 33%, #081129 67%, black 100%);
-    background-size: 300% 300%;
-    animation: animationgra 5s ease infinite;
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-  
+   background-image: linear-gradient(to top, #0a1117 43%, #02191e 57%);
+   background-size: 1050% 610%;
+   animation: drowning 4s infinite alternate;
+   background-color: rgb(0, 0, 0);
+   font-family: sans-serif;
 }
 
 img {
     border-radius: 75%;
     width: 260px;
     height: 260px;
-    border: 2px solid gray
-    
-    
+    border: solid 3px gray
 
  }
 
@@ -85,4 +87,4 @@ img {
     margin-left: auto;
     margin-right: auto;
  }   
-  
+
