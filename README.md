@@ -1,3 +1,3 @@
 # my-links
-Links pessoais
-Apreendendo programação no curso Stepone
+Redes sociais 
+Projeto voltado ao estudo da programação no curso Stepone
