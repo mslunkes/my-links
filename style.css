@@ -54,7 +54,7 @@ img {
 
  a{ 
     
-    background-color: rgb(28, 192, 237);
+    background-color: rgb(80, 237, 28);
     color: rgb(0, 0, 0);
     padding: 15px;
     padding-left: 20px;
@@ -68,7 +68,7 @@ img {
  }
 
  a:hover{
-    background-color: rgb(61, 218, 61);
+    background-color: rgb(163, 198, 163);
     color: rgb(24, 18, 198);
     box-shadow: 8px 8px #dee900aa;
     transition: all .2s ease-in-out;
