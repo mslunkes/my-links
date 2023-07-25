@@ -13,7 +13,7 @@
 }
 
 body {
-   background-image: linear-gradient(to top, #0a1117 43%, #02191e 57%);
+   background-image: linear-gradient(to top, #092c4b 43%, #02191e 57%);
    background-size: 1050% 610%;
    animation: drowning 4s infinite alternate;
    background-color: rgb(0, 0, 0);
@@ -70,7 +70,7 @@ img {
  a:hover{
     background-color: rgb(61, 218, 61);
     color: rgb(24, 18, 198);
-    box-shadow: 8px 8px #0c0389;
+    box-shadow: 8px 8px #dee900aa;
     transition: all .2s ease-in-out;
     
  }
